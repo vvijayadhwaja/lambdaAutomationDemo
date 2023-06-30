@@ -1,0 +1,19 @@
+{
+  "name": "lambdaautomationdemo",
+  "version": "1.0.0",
+  "description": "Demo lambda function fir CI CD pipelining",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vvijayadhwaja/lambdaAutomationDemo.git"
+  },
+  "author": "Vaarini Vijayadhwaja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vvijayadhwaja/lambdaAutomationDemo/issues"
+  },
+  "homepage": "https://github.com/vvijayadhwaja/lambdaAutomationDemo#readme"
+}
