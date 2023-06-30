@@ -1,0 +1,12 @@
+service: lambdaAutomationDemo
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  stage: dev
+  region: eu-central-1
+
+functions:
+  index: index
+    timeout: 60 # seconds
+    memorySize: 128 # mb
