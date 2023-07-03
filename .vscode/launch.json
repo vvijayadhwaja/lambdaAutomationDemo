@@ -19,3 +19,22 @@
         }
     ]
 }
+// {
+//     "type": "aws-sam",
+//     "request": "direct-invoke",
+//     "name": "myConfig",
+//     "invokeTarget": {
+//       "target": "api",
+//       "templatePath": "n12/template.yaml",
+//       "logicalId": "HelloWorldFunction"
+//     },
+//     "api": {
+//       "path": "/hello",
+//       "httpMethod": "post",
+//       "payload": {
+//         "json": {}
+//       }
+//     }, 
+//     "sam": {},
+//     "aws": {}
+//   }
