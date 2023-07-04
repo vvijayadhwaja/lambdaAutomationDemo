@@ -18,3 +18,5 @@ module.exports.generateRandomNumber = event => {
   console.log("The random generated integer is: ", randomNumber);
   return randomNumber;
 };
+
+this.generateRandomNumber();
